@@ -1,0 +1,42 @@
+body {
+    height: 100vh;
+    background: url(https://wallpaperaccess.com/full/626893.jpg) no-repeat;
+    background-size: cover;
+    font-family: "Calibri", sans-serif;
+    overflow: hidden;
+    text-align: center;
+}
+
+h1 {
+    margin: 30px 0;
+    font-size: 40px;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.button1,
+.button2 {
+    background: antiquewhite; 
+    font-size: 26px;                                 
+    border: 1px solid;
+    color: black;
+    cursor: pointer;
+    width: 265px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+
+.button1:active,
+.button2:active {
+    transform: scale(0.97,0.97);
+  }
